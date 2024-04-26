@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  background: #f4f4f4;
+}
+
+/* Utility class  */
+.btn-ss {
+  padding: 4px 8px;
+  font-size: 12px;
+  text-align: center;
+}
+.w-80 {
+  max-width: 80%;
+}
+img {
+  width: 100%;
+}
+/* Header  */
+#header-area .navbar-brand img {
+  width: 80px;
+}
+#header-area .nav-link,
+#header-area button,
+#header-area .dropdown-item {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+#header-area .nav-link:hover {
+  background: #eaecf0;
+}
+
+#header-area .search-bar input {
+  border-radius: 40px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background: #f1f1f1;
+  width: 177px;
+  padding: 6px 6px 6px 35px;
+}
+
+#header-area .search-bar {
+  position: relative;
+}
+#header-area .search-bar .btn-search {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+#header-area .search-bar img {
+  width: 22px;
+}
+#header-area a.dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-block-icon {
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  font-size: 12px;
+  color: orange;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+}
+#our-courses .card {
+  transition: all 0.6s;
+}
+#our-courses .card:hover {
+  border: 1px solid #333;
+  opacity: 0.8;
+}
